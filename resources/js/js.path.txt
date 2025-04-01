@@ -1,0 +1,40 @@
+js/
+├── components/
+├── layouts/
+ |          ├── AdminLayout.vue
+ |          └── UserLayout.vue
+├── router/
+ |          └── index.js
+├── stores/
+├── views/
+ |          ├── admin/
+ |           |          ├── categories/
+ |           |           |          ├── CategoriesList.vue
+ |           |           |          ├── CreateCategory.vue
+ |           |           |          └── UpdateCategory.vue
+ |           |          ├── products/
+ |           |           |          ├── CreateProduct.vue
+ |           |           |          ├── ProductsList.vue
+ |           |           |          └── UpdateProduct.vue
+ |           |          ├── Dashboard.vue
+ |           |          └── OrdersList.vue
+ |          ├── auth/
+ |           |          ├── Login.vue
+ |           |          ├── Register.vue
+ |           |          ├── ResetPassword.vue
+ |           |          └── Verification.vue
+ |          ├── customer/
+ |           |          ├── About.vue
+ |           |          ├── Cart.vue
+ |           |          ├── Checkout.vue
+ |           |          ├── ContactUs.vue
+ |           |          ├── Filter.vue
+ |           |          ├── Home.vue
+ |           |          ├── Orders.vue
+ |           |          ├── ProductDetails.vue
+ |           |          ├── ProductsList.vue
+ |           |          ├── Profile.vue
+ |           |          └── Wishlist.vue
+├── app.js
+├── App.vue
+└── js.path.txt
